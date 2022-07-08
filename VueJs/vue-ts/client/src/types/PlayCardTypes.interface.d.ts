@@ -1,0 +1,1 @@
+export enum BtnTypes { primary = 0, secondary = 1 };

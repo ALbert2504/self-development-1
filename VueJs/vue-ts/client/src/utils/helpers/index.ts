@@ -1,0 +1,1 @@
+export { default as giveConvertedDate } from './getConvertedData';

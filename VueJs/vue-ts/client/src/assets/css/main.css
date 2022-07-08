@@ -1,0 +1,12 @@
+@import url("./var.css");
+
+/* Inputs */
+.base-input {
+    outline: none;
+    border: solid 1px var(--primary);
+    border-radius: 5px;
+    padding: 8px 16px;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}

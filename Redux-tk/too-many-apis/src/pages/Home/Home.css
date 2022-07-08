@@ -1,0 +1,17 @@
+.home-card__item {
+  transition: transform .3s ease-in-out;
+}
+.home-card__link {
+  transition: box-shadow .3s ease-in-out;
+
+}
+.home-card__item:hover {
+  transform: translateY(-5px);
+}
+.home-card__item:hover .home-card__link {
+  box-shadow: 0 0 7px 3px #ccc;
+}
+.home-card__img {
+  height: 142px;
+  object-fit: cover;
+}

@@ -1,0 +1,7 @@
+.mastery {
+  background-image: url("../../assets/img/copybook-bg.png");
+  min-height: calc(100vh - 62px);
+}
+.todo-item {
+  transition: background-color .3s ease-in-out;
+}

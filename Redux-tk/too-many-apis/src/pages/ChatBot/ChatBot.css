@@ -1,0 +1,28 @@
+.messages-container {
+  min-height: 70vh;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.messages-container::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+  margin-left: 2px;
+}
+
+/* Track */
+.messages-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+.messages-container::-webkit-scrollbar-thumb {
+  background: var(--bs-primary);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.messages-container::-webkit-scrollbar-thumb:hover {
+  background: #c85855;
+}
